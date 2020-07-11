@@ -1,0 +1,22 @@
+html{
+	font-size:10px;
+}
+body{
+	background: #f2f2f2;
+	font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+@media only screen and (min-width: 371px){
+	html {font-size: 14px !important;}
+  }
+@media only screen and (min-width: 401px){
+  html {font-size: 15px !important;}
+}
+@media only screen and (min-width: 428px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 481px){
+  html {font-size: 16px !important;}
+}
+@media only screen and (min-width: 569px){
+  html {font-size: 17px !important;}
+}

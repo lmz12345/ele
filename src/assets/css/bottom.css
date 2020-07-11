@@ -1,0 +1,145 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+/* .bigbig{
+	width: 100%;
+} */
+.bottom{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	bottom: 0;
+	width: 100%;
+	z-index: 5;
+	height: 3.5rem;
+	background: #131d26;
+}
+/* 购物框 */
+.big{
+	position: relative;
+	bottom: 1.2rem;
+	left: 1.5rem;
+	width: 4.5rem;
+	height: 4.5rem;
+	border-radius: 50%;
+	background: #131d26;
+}
+.small{
+	position: relative;
+	top: .3rem;
+	left: .3rem;
+	width: 3.9rem;
+	height: 3.9rem;
+	border-radius: 50%;
+	background: #2b343c;
+}
+.smsm{
+	position: absolute;
+	background: red;
+	width: 1.9rem;
+	height: 1.2rem;
+	z-index: 3;
+	margin-left: 2.6rem;
+	margin-top: .2rem;
+	border-radius: 1rem;
+}
+.smsm p{
+	font-size: .9rem;
+	margin-top: .15rem;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+.small img{
+	position: relative;
+	top: .8rem;
+	left: .8rem;
+	width: 2.5rem;
+}
+.con2{
+	position: relative;
+	width: 4rem;
+	justify-content: center;
+	text-align: center;
+	left: 1.5rem;
+	color: gray;
+	font-weight: bold;
+	font-size: 1.2rem;
+	border-right: 1px solid grey;
+}
+.con3{
+	position: relative;
+	left: 2.5rem;
+	color: gray;
+}
+.con4{
+	position: absolute;
+	right: 0;
+	height: 3.5rem;
+	width: 7rem;
+	background: #2b333b;
+}
+.con4-1{
+	position: absolute;
+	right: 0;
+	height: 3.5rem;
+	width: 7rem;
+	background: #FFD161;
+}
+.con4>p,.con4-0>p{
+	/* margin-left: 1rem; */
+	line-height: 3.5rem;
+	font-weight: bold;
+	text-align: center;
+	font-size: 1.1rem;
+	color: gray;
+}
+/* 购物车内容 */
+.gwccon{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 4;
+	background: rgba(0,0,0,.5);
+}
+.food{
+	width: 100%;
+	bottom: 3rem;
+	position: fixed;
+	background: white;
+}
+.foodtop{
+	display: flex;
+	height: 3rem;
+	width: 100%;
+	background: #f4f5f7;
+	border-bottom: 1px solid #ccc;
+}
+.foodtplt{
+	line-height: 3rem;
+	margin-left: 1rem;
+}
+.foodtprg{
+	position: absolute;
+	right: 1rem;
+	color: #00a1d8;
+	line-height: 3rem;
+	margin-left: 1rem;
+}
+.sp{
+	margin-left: 5%;
+	width: 90%;
+	height: 100%;
+	line-height: 4rem;
+	
+}
+.splt{
+	display: flex;
+	border-bottom: 1px solid #ccc;
+}

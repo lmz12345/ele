@@ -1,0 +1,186 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.top1{
+	position: fixed;
+	z-index: 2;
+	top: 0;
+	width: 100%;
+	height: 11.65rem;
+}
+.top1>.bgimg{
+	position: absolute;
+	z-index: -1;
+	width: 100%;
+	height: 11.65rem;
+	filter: blur(.3rem);
+}
+.top1 .bgk{
+	position: relative;
+	z-index: 3;
+	width: 100%;
+	height: 11.65rem;
+	background: rgba(50,50,45,.7);
+}
+/* 内容 */
+.content{
+	position: relative;
+	display: flex;
+}
+/* 左边内容 */
+.conl>.img1{
+	width: 5.3rem;
+	margin-left: 1.8rem;
+	margin-top: 1.8rem;
+	border-radius: .3rem;
+}
+/* 右边内容 */
+.conr{
+	margin-left: 1.3rem;
+}
+.conr .img2{
+	width: 2.5rem;
+	height: 1.5rem;
+	margin-top: 2rem;
+}
+/* 右边头部 */
+.conrt,.conrb{
+	display: flex;
+}
+.conrt>h3{
+	margin-top: 1.8rem;
+	color: white;
+	margin-left: .5rem;
+}
+/* 右边中间/底部 */
+.conrc,.conrb{
+	margin-top: .5rem;
+}
+.conrc>span,.conrb{
+	color: gainsboro;
+}
+.conrb>img{
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.conrb>p{
+	margin-left: .5rem;
+	font-size: .9rem;
+}
+.br{
+	width: 3.5rem;
+	height: 2.3rem;
+	border-radius: 1rem;
+	background-color: rgb(0,0,0,.2);
+	margin-top: -.6rem;
+	margin-left: 1rem;
+}
+.br>p{
+	color: gainsboro;
+	margin-top: .5rem;
+	margin-left: .5rem;
+}
+/* 底部内容 */
+.conb{
+	display: flex;
+	margin-top: 1.5rem;
+	width: 100%;
+	height: 2.5rem;
+	
+	background-color: rgb(7,17,27,.2);
+}
+.conb>img{
+	width: 1.9rem;
+	height: 1rem;
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+.conb p{
+	height: 1.1rem;
+	margin-left: .6rem;
+	margin-top: .9rem;
+	font-size: .9rem;
+	color: gainsboro;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-box-orient: vertical;
+}
+/*===========================================*/
+.yhgg{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 6;
+	width: 100%;
+	height: 100%;
+	/* background: red; */
+	background: rgba(0,0,0,.8);
+}
+.ytp h3{
+	margin-top: 5rem;
+	text-align: center;
+	color: white;
+}
+.ytp div{
+	margin-left: 5.5rem;
+	margin-top: 1rem;
+}
+.ytp img{
+	width: 1.5rem;
+	margin-left: 1rem;
+}
+/* 优惠信息 */
+.yh,.gg{
+	width: 100%;
+	margin-top: 2rem;
+}
+.yh div,.gg div{
+	display: flex;
+	margin-left: .8rem;
+}
+.yh div .gang,.gg div .gang{
+	width: 9rem;
+	height: .1rem;
+	background: gray;
+	margin-top: .7rem;
+}
+.yh div h4,.gg div h4{
+	color: white;
+	margin-left: .7rem;
+}
+.yhdiv{
+	margin-top: 1rem;
+	margin-left: 3rem;
+}
+.yhdiv img{
+	width: 1.3rem;
+	margin-left: 2.1rem;
+}
+.yhdiv p{
+	color: white;
+	margin-left: .5rem;
+	font-size: .9rem;
+}
+/* 商家公告 */
+.ggdiv{
+	position: relative;
+	margin-top: 2rem;
+}
+.ggdiv p{
+	width: 85%;
+	color: white;
+	margin-left: 1.5rem;
+	line-height: 2rem;
+}
+.close p{
+	margin-top: 2rem;
+	color: gray;
+	font-size: 2.5rem;
+	margin-left: 12rem;
+}

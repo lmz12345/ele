@@ -1,0 +1,115 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.seller{
+	position: relative;
+	margin-top: 15.05rem;
+}
+.sellertp{
+	width: 100%;
+	height: 12.5rem;
+	border-bottom: 1px solid #ccc;
+	background: white;
+}
+.sellertpt{
+	position: relative;
+	display: flex;
+	margin-left: 1rem;
+}
+.sellertptlt{
+	margin-top: 1rem;
+}
+.sellertpt img{
+	width: 8rem;
+}
+.bt{
+	display: flex;
+	margin-top: .5rem;
+}
+.sellertptrg{
+	margin-top: 1rem;
+	margin-left: 5rem;
+}
+.sellertptrg img{
+	margin-left: .8rem;
+	width: 1.8rem;
+}
+/* 下划线 */
+.hr{
+	width: 90%;
+	height: .1rem;
+	background: #ccc;
+	margin-left: 1rem;
+	margin-top: 1rem;
+}
+/* 头部底部 */
+.sellerbt{
+	width: 100%;
+	display: flex;
+}
+.bt1{
+	margin-top: 2rem;
+	width: 33.3%;
+	text-align: center;
+	border-right: 1px solid #ccc;
+}
+.zt1{
+	color: gray;
+}
+.zt2{
+	font-size: 2rem;
+}
+.sp1{
+	font-size: .9rem;
+}
+/* 公告与活动 */
+.gonggao,.sj,.sjxx{
+	width: 100%;
+	background: white;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-top: 1rem;
+}
+.gonggao{
+	height: 30rem;
+}
+.gonggao>p,.sj>p,.sjxx .title1{
+	margin-left: 1rem;
+	font-size: 1.3rem;
+	margin-top: 1rem;
+}
+.gonggao .zt5{
+	font-size: 1rem;
+	color: red;
+	margin-left: 2rem;
+}
+.pai2{
+	display: flex;
+	margin-top: 1.1rem;
+	margin-left: 1.5rem;
+}
+.pai2 img{
+	width: 1.3rem;
+}
+.zt3{
+	margin-left: .8rem;
+}
+/* 商家实景 */
+.sjxx div .zt4{
+	position: relative;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	font-size: 1rem;
+}
+.img1{
+	display: flex;
+}
+.sj div img{
+	width: 5.3rem;
+	height: 5rem;
+	margin-top: .8rem;
+	margin-bottom: .8rem;
+	margin-left: 1rem;
+}

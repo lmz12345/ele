@@ -1,0 +1,170 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.ratings{
+	position: relative;
+	width: 100%;
+	margin-top: 15.05rem;
+}
+/* 头部 */
+.ratingstp{
+	width: 100%;
+	position: relative;
+	display: flex;
+	height: 7rem;
+	background: white;
+	border-bottom: 1px solid #ccc;
+}
+/* 头部左边 */
+.tplt{
+	width:39%;
+	text-align: center;
+	margin-top: 1.3rem;
+}
+.tplt>p{
+	position: relative;
+	line-height: 1.5rem;
+}
+.p1{
+	color: orange;
+	font-size: 1.8rem;
+}
+.p3{
+	color: gray;
+	font-size: .8rem;
+}
+/* 头部中间 */
+.tpcen{
+	position: relative;
+	top: 1.3rem;
+	width: .2rem;
+	height: 4.3rem;
+	background: #ccc;
+}
+/* 头部右边 */
+.tprg{
+	position: relative;
+	width: 60%;
+	margin-left: 1.5rem;
+	top: 1.3rem;
+	line-height: 1.6rem;
+}
+.tprg1,.tprg2,.tprg3{
+	position: relative;
+	display: flex;
+}
+.tprg1 span,.tprg2 span{
+	color: orange;
+	position: relative;
+	margin-left: .8rem;
+}
+.tprg1 img,.tprg2 img{
+	width: 8rem;
+	position: relative;
+	margin-left: .5rem;
+}
+.tprg3 span{
+	color: gray;
+	font-size: .9rem;
+	position: relative;
+	margin-left: .5rem;
+}
+/* 内容 */
+.ratingscen{
+	width: 100%;
+	/* height: 100%; */
+	background: white;
+	position: relative;
+	top: 1.5rem;
+}
+.btn{
+	margin-left: 1.5rem;
+}
+.btn button{
+	border: 0;
+	height: 2.5rem;
+	margin-top: 1rem;
+	width: 5rem;
+}
+.btn .btn1{
+	background: #00a0dc;
+}
+.btn .btn2{
+	background: #ccecf7;
+}
+.btn .btn3{
+	background: #eaebed;
+}
+.btn button span{
+	font-size: .7rem;
+	margin-left: .2rem;
+}
+/* 下划线 */
+.hr{
+	width: 90%;
+	height: .1rem;
+	background: #ccc;
+	margin-left: 1.5rem;
+	margin-top: 1rem;
+}
+/* 评价 */
+.pingjia{
+	
+}
+/* 标题 */
+.title{
+	display: flex;
+	margin-top: 1rem;
+	border-bottom: .1rem solid #ccc;
+}
+.title p{
+	margin-left: .5rem;
+	color: gray;
+}
+.title img{
+	margin-left: 1.5rem;
+	width: 2rem;
+}
+/* 评论 */
+.pinglun{
+	display: flex;
+	width: 90%;
+	height: 9.5rem;
+	margin-left: 1.5rem;
+	border-bottom: 1px solid #ccc;
+}
+.pllt img{
+	width: 1.9rem;
+	margin-top: 1rem;
+	border-radius: 50%;
+}
+.plrg{
+	margin-top: 1rem;
+}
+.plrg1,.plrg2,.plrg4,.plrg3{
+	display: flex;
+	margin-top: .2rem;
+	margin-left: 1rem;
+}
+.plrg1 .p2{
+	margin-left: 9rem;
+	color: #ccc;
+}
+.plrg2>img{
+	width: 6rem;
+}
+.plrg2>p{
+	color: #ccc;
+	font-size: .9rem;
+	margin-left: 1rem;
+}
+.plrg4 img{
+	width: 2rem;
+}
+.plrg4 button{
+	background: white;
+	color: gray;
+	border: 1px solid #ccc;
+}
